@@ -84,6 +84,16 @@ nav a:hover {
 
 .section6 {
     background-color: #406628;
+    padding-top: 2px; 
+    margin-top: 0;
+}
+
+
+
+.section6 h2 {
+    color: #ffffff;
+    font-size: 40px; 
+    font-weight: 700;
 }
 
 .category-grid {
@@ -190,15 +200,55 @@ nav a:hover {
     border-top: 2px solid #f1f1f1;
 
 }
+
+
+
 .section3 .snake {
     position: absolute;
     left: -140px;
-    top: -13%;
-    transform: translateY(50%);
+    top: 120%;
+    transform: translateY(-50%);
     width: 500px;
     height: 530px;
 }
+
+.section3 .snak1 {
+    position: absolute;
+    left: -140px;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 530px;
+}
+
+.section3 .snak4 {
+    position: absolute;
+    left: -140px;
+    top: 80%; 
+    transform: translateY(-50%);
+    width: 500px;
+    height: 530px;
+}
+
+.section3 .snak6 {
+    position: absolute;
+    left: -140px;
+    top: 160%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 530px;
+}
+
 .section3 .snak3 {
+    position: absolute;
+    right: -114px;
+    top: 120%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 530px;
+}
+
+.section3 .snak2 {
     position: absolute;
     right: -114px;
     top: 40%;
@@ -206,23 +256,25 @@ nav a:hover {
     width: 500px;
     height: 530px;
 }
-.section3 .snak1 { 
-    position: absolute;
-    left: -140px;
-    top: 36%;
-    transform: translateY(50%);
-    width: 500px;
-    height: 530px;
-}
-.section3 .snak2 {
+
+.section3 .snak5 {
     position: absolute;
     right: -114px;
-    top: 88%;
+    top: 80%;
     transform: translateY(-50%);
     width: 500px;
     height: 530px;
 }
 
+
+.section3 .snak7 {
+    position: absolute;
+    right: -114px;
+    top: 160%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 530px;
+}
 .section3 {
     background-color: #f1f1f1;
     padding: 20px 20px;
@@ -320,3 +372,26 @@ nav a:hover {
 .social-icons img:hover {
     transform: scale(1.1);
 }
+
+/* Push footer to the very bottom of the page */
+body.category-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main.products-container {
+    flex: 1; /* Pushes the contact/social section to the bottom */
+}
+
+
+
+
+
+
+
+
+
+
+
